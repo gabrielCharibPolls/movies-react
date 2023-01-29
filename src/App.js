@@ -7,6 +7,7 @@ import TechnoList from './components/pages/TechnoList';
 function App() {
   return (
     <>
+    
    
     <Menu/>
     <Home/>  
