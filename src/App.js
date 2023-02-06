@@ -2,17 +2,22 @@ import './css/app.css';
 import Home from './components/pages/Home';
 import Menu from './components/Menu';
 import TecnoAdd from './components/pages/TecnoAdd';
-import TechnoList from './components/pages/TechnoList';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-    
-   
+   <Routes>
+      <Route>
+        
+      </Route>
+
+
+   </Routes>
     <Menu/>
     <Home/>  
     <TecnoAdd/>
-    <TechnoList/>
+    
     </>
   )
 }
